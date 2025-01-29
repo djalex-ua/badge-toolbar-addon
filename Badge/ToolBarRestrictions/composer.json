@@ -1,0 +1,22 @@
+{
+    "name": "badge/module-toolbarrestrictions",
+    "description": "test",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Badge",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Badge\\ToolBarRestrictions\\": ""
+        }
+    }
+}
