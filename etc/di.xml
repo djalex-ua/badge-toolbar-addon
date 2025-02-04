@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Smile\DebugToolbar\Helper\Config">
+        <plugin name="Badge_ToolBarRestrictions_Plugin_Smile_DebugToolbar_Helper_Config"
+                type="Badge\ToolBarRestrictions\Plugin\Smile\DebugToolbar\Helper\Config" sortOrder="10"
+                disabled="false"/>
+    </type>
+</config>
