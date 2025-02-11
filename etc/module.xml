@@ -1,8 +1,15 @@
 <?xml version="1.0" ?>
+<!--
+ /**
+ * Copyright © Copyright Badge Direct BV
+ * #3825: Developer toolbar for Magento2 - add to local env's - https://collab.seken.it/projects/295/tasks/31966
+ * All rights reserved.
+ */
+ -->
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
 	<module name="Badge_ToolBarRestrictions">
 		<sequence>
-			<module name="Amasty_Acart"/>
+			<module name="Smile_DebugToolbar"/>
 		</sequence>
 	</module>
 </config>

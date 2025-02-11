@@ -1,8 +1,10 @@
 <?php
 /**
- * Copyright © test All rights reserved.
- * See COPYING.txt for license details.
+ * Copyright © Copyright Badge Direct BV
+ * #3825: Developer toolbar for Magento2 - add to local env's - https://collab.seken.it/projects/295/tasks/31966
+ * All rights reserved.
  */
+
 declare(strict_types=1);
 
 namespace Badge\ToolBarRestrictions\Plugin\Smile\DebugToolbar\Helper;
@@ -26,6 +28,10 @@ class Config
         $result
     ) {
         $currentUri = $this->request->getRequestUri();
+        if (str_contains($currentUri, '/static/')) {
+            return $result;
+        }
+
         foreach (self::TOOLBAR_RESTRICTED_URLS as $pattern) {
             if (preg_match($pattern, $currentUri)) {
                 return false;
