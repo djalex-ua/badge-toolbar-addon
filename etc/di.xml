@@ -13,8 +13,4 @@
                 type="Badge\ToolBarRestrictions\Plugin\Smile\DebugToolbar\Helper\Config" sortOrder="10"
                 disabled="false"/>
     </type>
-    <preference for="Smile\DebugToolbar\Block\Zone\Cache"
-                type="Badge\ToolBarRestrictions\Rewrite\Smile\Block\Zone\Cache"/>
-    <preference for="Smile\DebugToolbar\Block\Zone\Server"
-                type="Badge\ToolBarRestrictions\Rewrite\Smile\Block\Zone\Server"/>
 </config>
